@@ -1,0 +1,154 @@
+/*<div className="App">
+      <section class="App-intro">
+        <div class="">
+          <img src={logo} className="App-logo" alt="logo" />
+          <div class="">
+            <p class="">CALEO PRODUCTIVITY es una herramienta que nos permite conocer la productividad de nuestros empleados, ver sus necesidades, puntos de oportunidad, entre otras; a través de una interfaz gráfica, amigable e intuitiva.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="App-">
+        <div class="">
+          <div class="">
+            <p class="App-span-title">CARACTERISTICAS</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img1}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">CARACTERISTICAS 01</span>
+                </h3>
+                <p class="">NIVELES DE SEGURIDAD</p>
+                <p class="">Los usuarios monitoreados no tienen acceso a la plataforma, solo supervisores pueden ver la información a través de una autenticación.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img2}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">CARACTERISTICAS 02</span>
+                </h3>
+                <p class="">MONITOREO DE ACTIVIDADES</p>
+                <p class="">CALEO PRODUCTIVIDAD arroja información detallada de las actividades de los agentes como el software utilizado y páginas visitadas.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img3}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">CARACTERISTICAS 03</span>
+                </h3>
+                <p class="">ESTADÍSTICAS DE TIEMPOS</p>
+                <p class="">Muestra graficas e información del tiempo invertido en software, sitios web, herramientas, entre otros.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img4}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">CARACTERISTICAS 04</span>
+                </h3>
+                <p class="">CONTROL DE HORARIO</p>
+                <p class="">Con CALEO PRODUCTIVIDAD podrá conocer los horarios más productivos, hora de inicio de actividades, fin de actividades, tiempo de ocio y más.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="App-">
+        <div class="">
+          <div class="">
+            <p class="App-span-title">BENEFICIOS</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img5}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">BENEFICIOS 01</span>
+                </h3>
+                <p class="">DETECCIÓN DE FRAUDES</p>
+                <p class="">Detección de fuga de información y uso indebido de la misma.<p></p>Detección de abuso de privilegios.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img6}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">BENEFICIOS 02</span>
+                </h3>
+                <p class="">CONOCER PUNTOS DE OPORTUNIDAD</p>
+                <p class="">Conocer si existen empleados insatisfechos.<p></p>Mejora en la toma de decisiones.<p></p>Detectar cargas de trabajo no equitativas entre empleados.<p></p>Mitigar bulling entre el personal.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img7}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">BENEFICIOS 03</span>
+                </h3>
+                <p class="">CONOCER EFECTIVIDAD DE LAS HERRAMIENTAS</p>
+                <p class="">Averiguar si las herramientas instaladas en los equipos de los usuarios cumplen con las necesidades.<p></p>Conocer que herramientas podrían mejorar la productividad de los empleados.</p>
+              </div>
+            </section>
+            <section class="">
+              <div class="">
+                <div class="">
+                  <div class=""><img class="App-info-image" width="600" height="400" alt="" data-loading="lazy" src={img8}/>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <h3 class=""><span class="c-line-text_line js-line"></span><span class="js-text">BENEFICIOS 04</span>
+                </h3>
+                <p class="">MEJORA DE TIEMPOS PRODUCTIVOS</p>
+                <p class="">Conocer si los tiempos de inicio y fin de actividades de los empleados.<p></p>Conocer los horarios más productivos.<p></p>Tiempo invertido en ocio.<p></p>Tiempos muertos.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+  </div>*/

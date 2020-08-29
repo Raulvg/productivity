@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   height: 20vh;
-  background-color: #1b71b1;
+  background-color: #163268;
 }
 
 .fade-div
@@ -38,7 +38,7 @@
 }
 .fade-div:hover
 {
-        opacity:0.8;
+  background: #b0ccd9;
 }
 
 .title-p {

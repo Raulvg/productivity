@@ -385,7 +385,7 @@ h6, .h6 {
 }
 
 .lead {
-	font-size: 1.25rem;
+	font-size: calc(0.75vw + 1.60vh);
 	font-weight: 300;
 }
 
@@ -631,8 +631,8 @@ pre code {
 .col-xl-auto {
 	position: relative;
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 3vw;
+	padding-left: 3vw;
 }
 
 .col {

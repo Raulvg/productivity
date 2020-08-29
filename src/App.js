@@ -12,7 +12,7 @@ import test from './img/img1.png';
 import './css/App.css';
 import './css/bootstrap.css';
 import './style.css';
-import './css/dark.css';
+//import './css/dark.css';
 
 function App() {
   return (
@@ -82,17 +82,17 @@ function App() {
                 <p class="lead">CALEO PRODUCTIVITY es una herramienta que nos permite conocer la productividad de nuestros empleados, ver sus necesidades, puntos de oportunidad, entre otras; a través de una interfaz gráfica, amigable e intuitiva.</p>
                 
               </div>
-              
-
             </div>
           </div>
         </div>
         <div class="content-wrap background-section">
-          {/*<!-- Caracteristicas section -->*/}
+          {/*<canvas ref="c"></canvas>
+          <script src="hover.js"></script>
+          <!-- first section -->*/}
           
-          <a href="portfolio.html" class="button button-full button-dark center text-right bottommargin-lg">
-            <div class="container clearfix">
-              CARACTERISTICAS
+          <a href="portfolio.html">
+            <div class="div-body fade-div">
+              <p class="title-p">CARACTERISTICAS</p>
             </div>
           </a>
 
@@ -163,9 +163,9 @@ function App() {
           {/*<!-- Beneficios section -->*/}
 
           <div class="header-wrap-clone"></div>
-          <a href="portfolio.html" class="button button-full button-dark center text-right bottommargin-lg">
-            <div class="container clearfix">
-              BENEFICIOS
+          <a href="portfolio.html">
+            <div class="div-body">
+              <p class="title-p">BENEFICIOS</p>
             </div>
           </a>
 
@@ -232,12 +232,11 @@ function App() {
               </figure>
             </div>
           </div>
-        
+
         </div>
       </section>{/*<!-- #content end -->*/}
-
+      
     </div>
-
   );
 }
 
